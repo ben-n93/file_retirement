@@ -4,7 +4,11 @@ A simple command-line tool for deleting old files (based on creation date).
 
 Automate with **crontab** or **Windows Task scheduler** to regularly clean up old files.
 
+## Installation
+
 No external packages are needed as this only uses modules from the standard library.
+
+Just call the script from the command line, as below.
 
 ## How to use
 
