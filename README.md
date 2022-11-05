@@ -27,3 +27,6 @@ If you want to delete based on modification time, just update `os.path.getctime(
 
 ## Warning
 Don't pass a string likely to be found in the names of files you don't want deleted. 
+
+## Further reading
+On [Medium](https://medium.com/@ben.nour_68691/writing-a-python-script-to-examine-file-metadata-and-modify-a-directorys-contents-accordingly-d9d3b0f4d2b6) I wrote a post about coding this tool.
