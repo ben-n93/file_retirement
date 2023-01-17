@@ -1,6 +1,12 @@
 """
 This script deletes old versions (based on creation time) of files that
 feature the specified string in the file name.
+
+Extended Summary
+----------------
+This script is mostly likely to be useful when automated via Crontab,
+Windows Task Scheduler, etc.
+
 """
 
 import os
@@ -24,15 +30,15 @@ args = parser.parse_args()
 
 def delete_old_files(directory, file_name):
     """In the specified directory, delete old versions of files
-    with a specified string in the file name. 
-    
+    with a specified string in the file name.
+
     Parameters
     ----------
     directory : str
         Path of directory in which the file/s you want to delete are or will be located.
     file_name : str
         File/s names that are to be deleted.
-        
+
     Raises
     ------
     ValueError
