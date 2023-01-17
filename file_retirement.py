@@ -32,6 +32,11 @@ def delete_old_files(directory, file_name):
         Path of directory in which the file/s you want to delete are or will be located.
     file_name : str
         File/s names that are to be deleted.
+        
+    Raises
+    ------
+    ValueError
+        If the file/s you want to delete does not exist in the directory.
     
     """
 
