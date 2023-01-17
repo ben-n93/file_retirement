@@ -23,7 +23,7 @@ $ python file_retirement.py --d "H:\Documents\finance_files_export" --f "monthly
 
 Mac
 ```
-$ python3 csv_to_snowflake.py --d "Users/ben/finance_files_export" --f "monthly_earnings"
+$ python3 file_retirement.py --d "Users/ben/finance_files_export" --f "monthly_earnings"
 ```
 
 ## Modifying the script
