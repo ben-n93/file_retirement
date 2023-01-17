@@ -26,6 +26,8 @@ Mac
 $ python3 file_retirement.py --d "Users/ben/finance_files_export" --f "monthly_earnings"
 ```
 
+This script is most likely to be useful when automated via Crontab, Windows Task Scheduler, etc.
+
 ## Modifying the script
 If you want to delete based on modification time, just update `os.path.getctime(file)` on line 35 to `os.path.getmtime(file)`.
 
