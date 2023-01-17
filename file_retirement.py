@@ -37,7 +37,6 @@ def delete_old_files(directory, file_name):
     ------
     ValueError
         If the file/s you want to delete does not exist in the directory.
-    
     """
 
     files_dictionary = {}
