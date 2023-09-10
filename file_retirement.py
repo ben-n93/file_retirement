@@ -2,11 +2,8 @@
 This script deletes old versions (based on creation time) of files that
 feature the specified string in the file name.
 
-Extended Summary
-----------------
 This script is mostly likely to be useful when automated via Crontab,
 Windows Task Scheduler, etc.
-
 """
 
 import os
